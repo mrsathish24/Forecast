@@ -11,7 +11,7 @@ import UIKit
 class Connection {
     static let shared = Connection()
     
-    static let APIKey = "522db6a157a748e2996212343221502"
+    static let APIKey = "522db6a157a748e2996212343221502" //Added static key
     static let BaseURL = URL(string: "https://api.weatherapi.com/v1/forecast.json")
     
     func getForecastJson(completion: @escaping (Forecasts)-> ()) {
